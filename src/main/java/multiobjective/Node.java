@@ -31,6 +31,29 @@ public class Node {
 	
 	public String toString() {
 		return this.battingFitness + "," + this.ballingFitness + "," + this.fieldingFitness	;	 
-	}
-	
+	}	
 }
+//public class Node {
+//	double battingFitness;
+//	double ballingFitness;
+//	public Node(double battingFitness, double ballingFitness) {
+//		super();
+//		this.battingFitness = battingFitness;
+//		this.ballingFitness = ballingFitness;
+//	}
+//	public double getBattingFitness() {
+//		return battingFitness;
+//	}
+//	public void setBattingFitness(double battingFitness) {
+//		this.battingFitness = battingFitness;
+//	}
+//	public double getBallingFitness() {
+//		return ballingFitness;
+//	}
+//	public void setBallingFitness(double ballingFitness) {
+//		this.ballingFitness = ballingFitness;
+//	}
+//	public String toString() {
+//		return this.battingFitness + "," + this.ballingFitness;	 
+//	}
+//}

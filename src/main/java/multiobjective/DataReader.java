@@ -13,7 +13,7 @@ public class DataReader {
 		
 	public static void generatePlayers()throws IOException {
 		
-		String csvFile = "/home/fancyarrow/Documents/data.csv";
+		String csvFile = "/home/fancyarrow/Documents/ipl-data.csv";
         String line = "";      
         BufferedReader br = null;
         
